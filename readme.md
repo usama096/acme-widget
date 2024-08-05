@@ -11,24 +11,24 @@ This system provides a proof of concept for Acme Widget Co's sales system, inclu
 
 ## Files
 
-1. index.php
+1. index.php:
 All products and cart items are displayed in `index.php` file. When user hit the 'Add to cart' button 
 items are are added to the cart and are stored in the session. When user clicks the 'Clear Session' button we clear and destory the current session so that we can use it again.
 
-2. Basket.php
+2. Basket.php:
 `Basket.php` is where we have defined a class `Basket` which we initilize when we run the index.php file which contain different cart manuplation methods.
 
-3. clear_session.php
+3. clear_session.php:
 This file is used to clear the current session and user is redirected the index.php file.
 
-4. products.php
+4. products.php:
 We have definded all of our products in `products.php` file. We can increase or decrease the number of products using that file.
 
 5. functions.php
 
 There are two functions. One is used to calculate the red widget offer discount amount and the one is uesed to format the price based on the currency we are using.
 
-6. css
+6. css:
 All css and styling rules are defined in the `styles.css` file.
 
 
@@ -51,7 +51,7 @@ All css and styling rules are defined in the `styles.css` file.
 Currently, the system supports "buy one red widget, get the second half price" for red widgets (R01). We
 are using `redWidgetOffer` function to calcualte the red widget offer
 
-## Assumptions
+# Assumptions
 
 - All prices are in USD.
 - Delivery charges are based on the total basket value before applying offers.
