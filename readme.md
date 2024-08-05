@@ -42,9 +42,9 @@ All css and styling rules are defined in the `styles.css` file.
 - Use the `calculatePrice` method to calculate the price of the items added to the cart.
 - Use the `calculateDuties` method to calculate the delivery charges based on applied rules
         e.g if 
-        itemsPrice <50 ===> delivery charges = 4.95
-        itemsPrice <90 ===> delivery charges = 2.95
-        itemsPrice >90 ===> delivery charges = 0
+        itemsPrice <50 ===> delivery charges = 4.95;
+        itemsPrice <90 ===> delivery charges = 2.95;
+        itemsPrice >90 ===> delivery charges = 0;
 
 ## Offers
 
